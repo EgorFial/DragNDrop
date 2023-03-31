@@ -6,7 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #dfdfdf;
+  background-color: #515151;
   display: flex;
   padding-top: 5rem;
   justify-content: center;
@@ -15,7 +15,7 @@ body {
 }
 
 .conteiner{
-background-color: #68e0d050;
+background-color: #cdcdcd82;
 padding: 20px;
 border-radius: 20px;
 }
@@ -29,17 +29,19 @@ border-radius: 20px;
 
 .col-header {
   width: 150px;
-  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  box-shadow: 4px 4px 9px rgb(101, 101, 101);
   border-radius: 20px;
   padding: 0.8rem 1rem;
   color: #fff;
+  border-color: black;
+  border-width: 1px;
 }
 
 .item {
   width: 150px;
   height: 66px;
   border: 1px solid #eee;
-  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  box-shadow: 4px 4px 9px rgba(138, 138, 138, 0.36);
   border-radius: 20px;
   background: #f7f6f7;
   padding: 0.8rem 1rem;
@@ -58,15 +60,15 @@ border-radius: 20px;
 }
 
 .start {
-  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+  background: linear-gradient(90deg, #f370d7 0%, #229efd62 179.25%);
 }
 
 .progress {
-  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+  background: linear-gradient(90deg, #209bffb0 0%, #68e0d0b7 100%);
 }
 
 .done {
-  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+  background: linear-gradient(90deg, #84faaf7e 0%, #8fd3f4 100%);
 }
 
 
@@ -76,8 +78,10 @@ border-radius: 20px;
 }
 
 .hold{
- background-color: #9b9b9b;
-
+ background-color: #ffffff;
+ border-style: dotted;
+ border-color: black;
+ border-width: 2px;
 }
 
 .hovered{
